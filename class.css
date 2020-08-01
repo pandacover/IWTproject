@@ -1,3 +1,36 @@
 body{
     background-color: black;
 }
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    transition: background-color 1s;
+}
+
+li a:hover, #home:hover{
+    background-color: black;
+    color: white;
+}
+
+#home{
+    background-color: white;
+    color: black;
+}
