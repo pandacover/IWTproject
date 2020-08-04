@@ -1,36 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
 body{
     background-color: black;
 }
 
-ul{
-    list-style-type: none;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
+nav{
+    width: 100%;
     background-color: #333;
+    overflow: auto;
     border: 1px solid #333;
-    border-radius: 5px;
+    border-radius: 15px;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 60px;
+    list-style: none;
 }
 
 li{
     float: left;
+
 }
 
-li a{
+nav a{
     display: block;
-    color: white;
+    padding: 20px 30px;
     text-decoration: none;
-    text-align: center;
-    padding: 14px 16px;
-    transition: background-color 1s;
-}
-
-li a:hover, #home:hover{
-    background-color: black;
     color: white;
+    transition: background-color 1s;
+    font-family: 'Chilanka', cursive;
 }
 
-#home{
-    background-color: white;
-    color: black;
+nav a:hover{
+    background-color: black;
+}
+.logo img{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 3%;
 }
