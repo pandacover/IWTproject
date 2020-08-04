@@ -1,39 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400');
-
-
-body{
-    padding: 0;
-    margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-nav{
-    height: 44px;
-    background-color: black;
+#navbar {
+  height: 44px;
+  background-color: #1d1d1d;
 }
 
-.menu{
-    position: relative;
-    margin: 0 auto;
-    width: 1000px;
-    overflow: hidden;
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
 }
 
-.menu ul{
-    width: 100%;
-    margin: 0;
-    padding-right: 0;
-    display: flex;
-    justify-content: space-between;
+.navbar-nav li {
+  display: inline-block;
 }
 
-.menu ul li, .menu ul li a{
-    list-style: none;
-    text-decoration: none;
-    line-height: 44px;
-    color: white;
-}
-
-.menu ul li .fa.fa-apple{
-    font-size: 20px ;
+.navbar-nav a {
+  color: white;
+  text-decoration: none;
 }
