@@ -1,43 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400');
+
 
 body{
-    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav{
-    width: 100%;
-    background-color: #333;
-    overflow: auto;
-    border: 1px solid #333;
-    border-radius: 15px;
-}
-
-ul{
-    padding: 0;
-    margin: 0 0 0 60px;
-    list-style: none;
-}
-
-li{
-    float: left;
-
-}
-
-nav a{
-    display: block;
-    padding: 20px 30px;
-    text-decoration: none;
-    color: white;
-    transition: background-color 1s;
-    font-family: 'Chilanka', cursive;
-}
-
-nav a:hover{
+    height: 44px;
     background-color: black;
 }
-.logo img{
-    position: absolute;
-    margin-left: 15px;
-    margin-top: 5px;
-    width: 3%;
+
+.menu{
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.menu ul{
+    width: 100%;
+    margin: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li, .menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    line-height: 44px;
+    color: white;
+}
+
+.menu ul li .fa.fa-apple{
+    font-size: 20px ;
 }
