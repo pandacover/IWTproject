@@ -5,20 +5,38 @@ body {
 }
 
 #navbar {
+  margin: 0;
   height: 44px;
-  background-color: #1d1d1d;
+  background-color: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+
 }
+  
 
 .navbar-nav {
+  margin: 0 auto;
+  width: 70%;
   list-style-type: none;
-  margin: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
-.navbar-nav li {
-  display: inline-block;
-}
-
-.navbar-nav a {
-  color: white;
+.navbar-nav li a {
+  color: rgb(214, 214, 214);
   text-decoration: none;
+  outline: none;
+  font-weight: lighter;
+}
+
+
+.navbar-nav svg {
+  width: 16px;
+  fill: rgb(214, 214, 214);
+  transition: ease .2s;
+}
+
+.navbar-nav svg:hover {
+  fill: #FFFFFF;
 }
