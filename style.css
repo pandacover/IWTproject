@@ -1,42 +1,101 @@
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
+@font-face {
+  src: url(./ponds/FontsFree-Net-SFProText-Regular.ttf);
+  font-family: sf;
 }
 
-#navbar {
+
+body {
   margin: 0;
+  font-family: sf;
+  font-size: 14px;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  display: block;
+  width: 100%;
+}
+
+.navbar div {
   height: 44px;
-  background-color: rgba(0, 0, 0, 0.92);
+  max-width: 980px;
+  padding: 0 22px;
+  margin: 0 auto;
+}
+
+.navbar div ul {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar div ul a {
+  color: #d6d6d6;
+  fill: #d6d6d6;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: ease 0.3s;
+}
+
+.navbar div ul a:hover {
+  color: white;
+  fill: white;
+}
+
+.navbar div ul .search-icon svg {
+  width: 18px;
+}
+
+.navbar div ul .shop-icon svg {
+  width: 17px;
+}
+
+.navbar div ul .apple-logo svg {
+  width: 16px;
+}
+
+/* covid-19 shop-online */
+
+.covid-19-pre {
+  padding-top: 44px;
+}
+
+.covid-19, .shop-online {
+  width: 100%;
+  height: 44px;
+  background-color: rgb(1, 113, 227);
   display: flex;
   align-items: center;
-  font-size: 14px;
-
-}
-  
-
-.navbar-nav {
-  margin: 0 auto;
-  width: 70%;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
+  color: white;
+  justify-content: center;
 }
 
-.navbar-nav li a {
-  color: rgb(214, 214, 214);
+.shop-online {
+  background-color: white;
+  color: black;
+}
+
+.covid-19 span a, .shop-online span a {
+  color: white;
   text-decoration: none;
-  outline: none;
-  font-weight: lighter;
+}
+
+.shop-online span a {
+  color: #0166CC;
+}
+
+.covid-19 span a:hover, .shop-online span a:hover {
+  text-decoration: underline;
 }
 
 
-.navbar-nav svg {
-  width: 16px;
-  fill: rgb(214, 214, 214);
-  transition: ease .2s;
-}
+/* iphone-se-photo */
 
-.navbar-nav svg:hover {
-  fill: #FFFFFF;
+.iphone-se-photo img {
+  width: 100%;
 }
