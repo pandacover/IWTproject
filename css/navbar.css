@@ -1,5 +1,5 @@
 @font-face {
-  src: url(./ponds/FontsFree-Net-SFProText-Regular.ttf);
+  src: url(../ponds/FontsFree-Net-SFProText-Regular.ttf);
   font-family: sf;
 }
 
@@ -12,6 +12,7 @@ body {
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: saturate(1.8) blur(20px);
   position: fixed;
   display: block;
   width: 100%;
@@ -35,11 +36,11 @@ body {
 }
 
 .navbar div ul a {
-  color: #d6d6d6;
-  fill: #d6d6d6;
+  color: #CECECE;
+  fill: #CECECE;
   text-decoration: none;
   padding: 0 10px;
-  transition: ease 0.3s;
+  transition: ease 0.2s;
 }
 
 .navbar div ul a:hover {
@@ -57,45 +58,4 @@ body {
 
 .navbar div ul .apple-logo svg {
   width: 16px;
-}
-
-/* covid-19 shop-online */
-
-.covid-19-pre {
-  padding-top: 44px;
-}
-
-.covid-19, .shop-online {
-  width: 100%;
-  height: 44px;
-  background-color: rgb(1, 113, 227);
-  display: flex;
-  align-items: center;
-  color: white;
-  justify-content: center;
-}
-
-.shop-online {
-  background-color: white;
-  color: black;
-}
-
-.covid-19 span a, .shop-online span a {
-  color: white;
-  text-decoration: none;
-}
-
-.shop-online span a {
-  color: #0166CC;
-}
-
-.covid-19 span a:hover, .shop-online span a:hover {
-  text-decoration: underline;
-}
-
-
-/* iphone-se-photo */
-
-.iphone-se-photo img {
-  width: 100%;
 }
