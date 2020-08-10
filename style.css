@@ -28,9 +28,7 @@ body {
   display: flex;
   height: 44px;
   align-items: center;
-<<<<<<< HEAD
   font-size: 14px;  
-=======
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -43,7 +41,6 @@ body {
   text-decoration: none;
   padding: 0 10px;
   transition: ease 0.3s;
->>>>>>> 08ae1c6168ab568e53d0a815e020eb93c46d5468
 }
 
 .navbar div ul a:hover {
