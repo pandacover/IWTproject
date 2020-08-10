@@ -245,6 +245,11 @@
   padding: 90px 0 0 0;
 }
 
+.iphone-comparison-collections {
+  display: flex;
+  flex-direction: row;
+}
+
 .iphone-comparison-section-div h1 {
   font-size: 48px;
 }

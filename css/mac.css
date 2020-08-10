@@ -105,14 +105,16 @@
         margin-left: auto;
         margin-right: auto;
         width: 968px;
-        padding-top: 150px;
         align-items: center;
-        padding-top: 100px;
+        display: block;
+        position: relative;
+        margin-top: -70px;
 }
 
   .mac-product-div-1 .info-1{
     position: relative;
-    float: left;
+    left: 10px;
+    top: -350px;
   }
 
   .mac-product-div-1 .info-1 .new{
@@ -164,6 +166,8 @@
       font-weight: bold;
       color: #1d1d1f;
       align-items: center;
+      position: relative;
+      margin-top: -300px;
   }
 
   .mac-product-div-2 .info-2{
@@ -238,7 +242,7 @@
     background-size: 726px 550px;
     background-repeat: no-repeat;
     position: relative;
-    right: -300px;
+    right: -350px;
     top: 150px;
   }
 
