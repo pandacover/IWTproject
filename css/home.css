@@ -33,14 +33,6 @@
 .covid-19 span a:hover,
 .shop-online span a:hover {
   text-decoration: underline;
-<<<<<<< HEAD
-/*  Hero section */
-.hero {
-  text-align: center;
-} background-image: url("../img/og__eop0rb3mevma_overview.png");
-  background-repeat: no-repeat;
-  background-size: 1156px 584px;
-=======
 }
 
 /* hero section */
@@ -50,7 +42,6 @@
   overflow: hidden;
   width: 100%;
   background-color: #161616;
-  padding: 15px;
 }
 
 .content-wrapper {
@@ -59,6 +50,7 @@
   width: 100%;
   text-align: center;
   z-index: 1;
+  margin: 0;
 }
 
 .content-wrapper > * {
@@ -66,7 +58,7 @@
 }
 
 .content-wrapper h2 {
-  font-size: 3.5em;
+  font-size: 3.3em;
   margin-top: 1.5rem;
 }
 .content-wrapper h3 {
@@ -124,5 +116,4 @@ figure {
 
 figure img {
   width: 65%;
->>>>>>> e4c6aa6035b7b6020f4010247d9348941bd9fa5e
 }
