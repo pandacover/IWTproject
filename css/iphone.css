@@ -44,10 +44,10 @@
 
 .iphone-model-section .iphone-model-new {
   font-size: 10px;
-  color: #BF4800;
+  color: #bf4800;
   display: flex;
   justify-content: center;
-  }
+}
 
 .iphone-model-section ul a figure {
   height: 54px;
@@ -132,7 +132,7 @@
 
 .iphone-product-section-div div {
   width: 490px;
-  color: #1D1D1F;
+  color: #1d1d1f;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -149,7 +149,7 @@
 
 .iphone-product-section-div div span {
   font-size: 17px;
-  color: #BF4800;
+  color: #bf4800;
 }
 
 .iphone-product-section-div div h2 {
@@ -182,9 +182,9 @@
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 18px;
-  background-color: #0171E3;
-  color: #F5F9FD;
-  transition: ease .2sz;
+  background-color: #0171e3;
+  color: #f5f9fd;
+  transition: ease 0.2sz;
 }
 
 .iphone-product-section-div div .phone-product-buy-button:hover {
@@ -194,7 +194,7 @@
 .iphone-product-section-div p a {
   font-size: 17px;
   text-decoration: none;
-  color: #0166CC;
+  color: #0166cc;
 }
 .iPhone-se-logo {
   background-image: url("https://www.apple.com/v/iphone/home/am/images/overview/hero/hero_iphone_se_logo__k9mmofrwueyy_large_2x.jpg");
@@ -203,7 +203,7 @@
 }
 
 .iphone-product-section-div p span {
-  color: #0166CC;
+  color: #0166cc;
 }
 
 .iphone-product-section-div p a:hover {
@@ -252,32 +252,33 @@
 }
 
 .iphone-comparison-section-div h1 {
+ margin: 0;
   font-size: 48px;
 }
 
 .iphone-comparison-section-div div p {
-   font-size: 24px;
-   color: #0166CC;
-   margin: 26px 0 52px 0;
+  font-size: 24px;
+  color: #0166cc;
+  margin: 26px 0 52px 0;
 }
 
 .iphone-comparison-section-div div p a {
-   font-size: 24px;
-   color: #0166CC;
-   text-decoration: none;
+  font-size: 24px;
+  color: #0166cc;
+  text-decoration: none;
 }
 
 .iphone-comparison-section-div div ul {
   padding: 0;
   margin: 20px 0 0 0;
   list-style: none;
-  height: 205px;
+  height: 220px;
 }
 
 .iphone-comparison-section-div div ul li {
   font-size: 14px;
   margin: 20px 0 0 0;
-  color: #1D1D1F;
+  color: #1d1d1f;
 }
 
 .iphone-comparison-section-div div p a:hover {
@@ -296,7 +297,7 @@
   font-size: 24px;
   height: 26px;
   margin: 0 0 4px 0;
-  color: #1D1D1F;
+  color: #1d1d1f;
 }
 
 .iphone-comparison-collections div .iphone-se figure {
@@ -315,12 +316,12 @@
 
 .iphone-comparison-collections div p {
   font-size: 14px;
-  color: #1D1D1F;
+  color: #1d1d1f;
   margin: 0;
 }
 
 .iphone-comparison-collections figure {
-  height: 251px; 
+  height: 251px;
   background-repeat: no-repeat;
   margin: 0 auto 30px 0;
 }
@@ -337,14 +338,18 @@
   color: white;
   border-radius: 12px;
   border-style: none;
-  background-color: #0171E3;
+  background-color: #0171e3;
   cursor: pointer;
+}
+
+.iphone-comparison-collections button:hover {
+  background-color: #0a79e8;
 }
 
 .iphone-comparison-collections div span p {
   margin: 14px 0 0 0;
   font-size: 14px;
-  color: #0166CC
+  color: #0166cc;
 }
 
 .iphone-comparison-collections div span p a {
