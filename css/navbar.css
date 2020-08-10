@@ -3,7 +3,6 @@
   font-family: sf;
 }
 
-
 body {
   margin: 0;
   font-family: sf;
@@ -12,10 +11,11 @@ body {
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.8);
-  -webkit-backdrop-filter: saturate(1.8) blur(20px);
+  --webkit-backdrop-filter: saturate(1.8) blur(20px);
   position: fixed;
   display: block;
   width: 100%;
+  z-index: 4;
 }
 
 .navbar div {
@@ -29,7 +29,7 @@ body {
   display: flex;
   height: 44px;
   align-items: center;
-  font-size: 14px;  
+  font-size: 14px;
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -37,8 +37,8 @@ body {
 }
 
 .navbar div ul a {
-  color: #CECECE;
-  fill: #CECECE;
+  color: #cecece;
+  fill: #cecece;
   text-decoration: none;
   padding: 0 10px;
   transition: ease 0.2s;
