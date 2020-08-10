@@ -183,7 +183,23 @@
   }
   /* image section*/
 
-  .imac-1-image{
-      background-image: url("");
+  .mac-model-1{
+    background-image: url("https://www.apple.com/v/mac/home/at/images/familybrowser/macbookair__e6welx5nvj0i_large.svg");
   }
 
+  .mac-model-2{
+    background-image: url("https://www.apple.com/v/mac/home/at/images/familybrowser/macbook_pro_13__ft1pc3lqwd6y_large.svg");
+  }
+
+  .mac-model-3{
+    background-image: url("https://www.apple.com/v/mac/home/at/images/familybrowser/macbook_pro_16__x90efpvdutu6_large.svg");
+  }
+
+  .mac-model-4{
+    background-image: url("https://www.apple.com/v/mac/home/at/images/familybrowser/imac__f77lhago3ia2_large.svg");
+
+  }
+
+  .mac-model-4 span{
+   
+  }
