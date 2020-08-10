@@ -33,12 +33,10 @@
 .covid-19 span a:hover,
 .shop-online span a:hover {
   text-decoration: underline;
-}
-
-/* iphone-se-photo */
-
-.figure-wrapper {
-  background-image: url("../img/og__eop0rb3mevma_overview.png");
+/*  Hero section */
+.hero {
+  text-align: center;
+} background-image: url("../img/og__eop0rb3mevma_overview.png");
   background-repeat: no-repeat;
   background-size: 1156px 584px;
 }

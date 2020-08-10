@@ -104,13 +104,16 @@
   .mac-product-div-1{
         margin-left: auto;
         margin-right: auto;
-        width: 980px;
-        font-weight: bold;
-        display: block;
-        position: relative;
-        top: 10px;
-        color: #1d1d1f
+        width: 968px;
+        padding-top: 150px;
+        align-items: center;
+        padding-top: 100px;
 }
+
+  .mac-product-div-1 .info-1{
+    position: relative;
+    float: left;
+  }
 
   .mac-product-div-1 .info-1 .new{
       color: #f5630f;
@@ -129,6 +132,7 @@
 
   .mac-product-div-1 .info-1 .quote{
       font-size: 28px;
+      font-weight: 600;
   }
 
   .buy-button a{
@@ -156,9 +160,7 @@
   .mac-product-div-2 {
       margin-left: auto;
       margin-right: auto;
-      width: 980px;
-      display: block;
-      position: relative;
+      width: 968px;
       font-weight: bold;
       color: #1d1d1f;
       align-items: center;
@@ -181,6 +183,11 @@
   .mac-product-div-2 .info-2 .buy-button a{
       padding-right: 20px;
   }
+
+  #sub-text{
+    color: #bf4800  ;
+    font-size: 10px;
+  }
   /* image section*/
 
   .mac-model-1{
@@ -200,6 +207,48 @@
 
   }
 
-  .mac-model-4 span{
-   
+  .mac-model-5{
+    background-image: url("https://www.apple.com/v/mac/home/at/images/familybrowser/imac_pro__xnvauz5hcf6i_large.svg");
+  }
+
+  .mac-model-6{
+    background-image: url("https://www.apple.com/v/mac/home/at/images/familybrowser/mac_pro__zh99hz57x2aq_large.svg");
+  }
+  
+  .mac-model-7{
+    background-image: url("https://www.apple.com/v/mac/home/at/images/familybrowser/macmini__ephgbbctwkk2_large.svg");
+  }
+
+  .mac-model-8{
+    background-image: url("https:www.apple.com/v/mac/home/at/images/familybrowser/mac_comp__eovw15n99vsm_large.svg");
+  }
+
+  .mac-model-9{
+    background-image: url("https://www.apple.com/v/mac/home/at/images/familybrowser/pro_display_xdr__d1ajndpu4d26_large.svg");
+  }
+
+  .mac-model-10{
+    background-image: url("https://www.apple.com/v/mac/home/at/images/familybrowser/mac_osx__e431iz44c0gi_large.svg");
+  }
+
+  .mac-product-div-1 .imac-1-image{
+    background-image: url("https://www.apple.com/v/mac/home/at/images/overview/hero/hero__k06a8x2036qq_large.jpg");
+    width: 726px;
+    height: 550px; 
+    background-size: 726px 550px;
+    background-repeat: no-repeat;
+    position: relative;
+    right: -300px;
+    top: 150px;
+  }
+
+  .mac-product-div-2 .imac-2-image{
+    width: 983px;
+    height: 150px;
+    background-size: 983px 150px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/mac/home/at/images/overview/hero/macbook_air__bfz9o93hnyuq_large.jpg");
+    position: relative;
+    left: -409px;
+    top: 300px;
   }
