@@ -1,0 +1,189 @@
+/* iphone-model-section */
+
+.mac-model-section {
+    height: 100px;
+    width: 100%;
+    background-color: #f3f3f4;
+    padding: 8px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .mac-model-section ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .mac-model-section ul li {
+    height: 80px;
+    padding: 0 20px;
+  }
+  
+  .mac-model-section ul a {
+    display: block;
+    text-decoration: none;
+    color: #1d1d1f;
+    font-size: 12px;
+    font-family: sf;
+    height: 77px;
+    margin: 3px 0 0 0;
+    transition: ease 0.2s;
+  }
+  
+  .mac-model-section ul a:hover {
+    color: #2679cd;
+  }
+  
+  .mac-model-section ul a figure {
+    height: 54px;
+    margin: 0 0 7px 0;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+  }
+  
+  .mac-model-1 {
+    background-image: url("https://www.apple.com/v/iphone/home/am/images/chapternav/iphone_11_pro_light__or0shxhwebm2_large.svg");
+  }
+  .mac-model-2 {
+    background-image: url("https://www.apple.com/v/iphone/home/am/images/chapternav/iphone_11_light__emvkmgq9x7au_large.svg");
+  }
+  .mac-model-3 {
+    background-image: url("https://www.apple.com/v/iphone/home/am/images/chapternav/iphone_se_light__cax806z0pegi_large.svg");
+  }
+  .mac-model-4 {
+    background-image: url("https://www.apple.com/v/iphone/home/am/images/chapternav/iphone_xr_light__bx2uuabqiz36_large.svg");
+  }
+  .mac-model-5 {
+    background-image: url("https://www.apple.com/v/iphone/home/am/images/chapternav/iphone_comp_light__dpxolluh0hua_large.svg");
+  }
+  .mac-model-6 {
+    background-image: url("https://www.apple.com/v/iphone/home/am/images/chapternav/iphone_airpods_light__erk6qz26oeqa_large.svg");
+  }
+  .mac-model-7 {
+    background-image: url("https://www.apple.com/v/iphone/home/am/images/chapternav/iphone_acc_light__bmhlbo8r15aq_large.svg");
+  }
+  .mac-model-8 {
+    background-image: url("https://www.apple.com/v/iphone/home/am/images/chapternav/iphone_apple_card_light__ep42t1y6u76u_large.svg");
+  }
+  .mac-model-9 {
+    background-image: url("https://www.apple.com/v/iphone/home/am/images/chapternav/iphone_ios_light__jjio8uqmjxei_large.svg");
+  }
+
+  /* Apple Card Monthly */
+
+.Apple-Card-Monthly {
+    height: 34px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+  }
+  
+  .Apple-Card-Monthly p {
+    font-size: 12px;
+    color: #333333;
+  }
+  
+  .Apple-Card-Monthly p a {
+    text-decoration: none;
+    color: #0166cc;
+  }
+  
+  .Apple-Card-Monthly p a:hover {
+    text-decoration: underline;
+  }
+  
+  /*product section*/
+
+  .mac-product-div-1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 980px;
+        font-weight: bold;
+        display: block;
+        position: relative;
+        top: 10px;
+        color: #1d1d1f
+}
+
+  .mac-product-div-1 .info-1 .new{
+      color: #f5630f;
+      font-size: 20px;
+      margin-bottom: 0.1em;
+  }
+
+  .mac-product-div-1 .info-1 .model-type{
+      font-size: 20px;
+  }
+
+  .mac-product-div-1 .info-1 .model{
+      font-size: 56px;
+      margin: -20px 0px;
+  }
+
+  .mac-product-div-1 .info-1 .quote{
+      font-size: 28px;
+  }
+
+  .buy-button a{
+      text-decoration: none;
+      color: white;
+  }
+
+  .buy-button{
+    background-color: #0071e3;
+    padding: 8px 0px;
+    padding-left: 16px;
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    font-size: 17px;
+  }
+
+  .learn-more a{
+      font-weight: 400;
+      text-decoration: none;
+      color: #0071e3;
+      font-size: 21px;
+  }
+
+  .mac-product-div-2 {
+      margin-left: auto;
+      margin-right: auto;
+      width: 980px;
+      display: block;
+      position: relative;
+      font-weight: bold;
+      color: #1d1d1f;
+      align-items: center;
+  }
+
+  .mac-product-div-2 .info-2{
+      position: relative;
+      float: right;
+  }
+
+  .mac-product-div-2 .info-2 .model{
+      font-size: 56px;
+      margin-bottom: -20px;
+  }
+
+  .mac-product-div-2 .info-2 .quote{
+      font-size: 28px;
+  }
+
+  .mac-product-div-2 .info-2 .buy-button a{
+      padding-right: 20px;
+  }
+  /* image section*/
+
+  .imac-1-image{
+      background-image: url("");
+  }
+
