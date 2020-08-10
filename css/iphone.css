@@ -265,11 +265,6 @@
   text-decoration: underline;
 }
 
-.iphone-comparison-collections {
-  display: flex;
-  flex-direction: row;
-}
-
 .iphone-comparison-collections div {
   width: 205px;
   height: 657px;
@@ -279,12 +274,12 @@
 .iphone-comparison-collections figure {
   height: 251px;
   width: 190px;
-  background-size: 190px 251px;
   background-repeat: no-repeat;
 }
 
 .iphone-comparison-collections-img-1 {
   background-image: url("https://www.apple.com/v/iphone/home/am/images/overview/compare/compare_iphone_11_pro__fvqwhr4dkhiu_large_2x.jpg");
+  background-size: 190px 251px;
 }
 
 .iphone-comparison-collections-img-2 {
@@ -293,9 +288,11 @@
 }
 
 .iphone-comparison-collections-img-3 {
-
+  background-image: url("https://www.apple.com/v/iphone/home/am/images/overview/compare/compare_iphone_se__buv6h7jbk5n6_large_2x.jpg");
+  background-size: 135px 251px;
 }
 
 .iphone-comparison-collections-img-4 {
-
+  background-image: url("https://www.apple.com/v/iphone/home/am/images/overview/compare/compare_iphone_xr__dexbg7jerlqq_large_2x.jpg");
+  background-size: 157px 251px;
 }

@@ -33,16 +33,14 @@
 .covid-19 span a:hover,
 .shop-online span a:hover {
   text-decoration: underline;
-<<<<<<< HEAD
 /*  Hero section */
+background-image: url("../img/og__eop0rb3mevma_overview.png");
+background-repeat: no-repeat;
+background-size: 1156px 584px;
+}
 .hero {
   text-align: center;
-} background-image: url("../img/og__eop0rb3mevma_overview.png");
-  background-repeat: no-repeat;
-  background-size: 1156px 584px;
-=======
 }
-
 /* hero section */
 .hero {
   box-sizing: border-box;
@@ -124,5 +122,4 @@ figure {
 
 figure img {
   width: 65%;
->>>>>>> e4c6aa6035b7b6020f4010247d9348941bd9fa5e
 }
