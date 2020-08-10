@@ -248,6 +248,7 @@
 .iphone-comparison-collections {
   display: flex;
   flex-direction: row;
+  text-align: left;
 }
 
 .iphone-comparison-section-div h1 {
@@ -266,38 +267,110 @@
    text-decoration: none;
 }
 
+.iphone-comparison-section-div div ul {
+  padding: 0;
+  margin: 20px 0 0 0;
+  list-style: none;
+  height: 205px;
+}
+
+.iphone-comparison-section-div div ul li {
+  font-size: 14px;
+  margin: 20px 0 0 0;
+  color: #1D1D1F;
+}
+
 .iphone-comparison-section-div div p a:hover {
   text-decoration: underline;
 }
 
 .iphone-comparison-collections div {
+  display: flex;
+  flex-direction: column;
   width: 205px;
   height: 657px;
   padding: 0 20px;
 }
 
+.iphone-comparison-collections div h3 {
+  font-size: 24px;
+  height: 26px;
+  margin: 0 0 4px 0;
+  color: #1D1D1F;
+}
+
+.iphone-comparison-collections div .iphone-se figure {
+  background-image: url("https://www.apple.com/v/iphone/home/am/images/overview/compare/logo_iphone_se__datka1e94csy_large_2x.png");
+  background-size: 98px 20px;
+  height: 20px;
+  margin: 4.5px 0 0 0;
+}
+
+.iphone-comparison-collections div .iphone-xr figure {
+  background-image: url("https://www.apple.com/v/iphone/home/am/images/overview/compare/logo_iphone_xr__b0yw7sz7cjiq_large_2x.png");
+  background-size: 112px 18px;
+  height: 18px;
+  margin: 4.5px 0 0 0;
+}
+
+.iphone-comparison-collections div p {
+  font-size: 14px;
+  color: #1D1D1F;
+  margin: 0;
+}
+
 .iphone-comparison-collections figure {
-  height: 251px;
-  width: 190px;
+  height: 251px; 
   background-repeat: no-repeat;
+  margin: 0 auto 30px 0;
+}
+
+.iphone-comparison-collections div span {
+  display: block;
+  margin: 24px 0 0 0;
+}
+
+.iphone-comparison-collections button {
+  width: 55px;
+  font-size: 12px;
+  height: 24px;
+  color: white;
+  border-radius: 12px;
+  border-style: none;
+  background-color: #0171E3;
+  cursor: pointer;
+}
+
+.iphone-comparison-collections div span p {
+  margin: 14px 0 0 0;
+  font-size: 14px;
+  color: #0166CC
+}
+
+.iphone-comparison-collections div span p a {
+  font-size: 14px;
 }
 
 .iphone-comparison-collections-img-1 {
+  width: 190px;
   background-image: url("https://www.apple.com/v/iphone/home/am/images/overview/compare/compare_iphone_11_pro__fvqwhr4dkhiu_large_2x.jpg");
   background-size: 190px 251px;
 }
 
 .iphone-comparison-collections-img-2 {
+  width: 155px;
   background-image: url("https://www.apple.com/v/iphone/home/am/images/overview/compare/compare_iphone_11__f0r1z5etd722_large_2x.jpg");
   background-size: 155px 251px;
 }
 
 .iphone-comparison-collections-img-3 {
+  width: 135px;
   background-image: url("https://www.apple.com/v/iphone/home/am/images/overview/compare/compare_iphone_se__buv6h7jbk5n6_large_2x.jpg");
   background-size: 135px 251px;
 }
 
 .iphone-comparison-collections-img-4 {
+  width: 157px;
   background-image: url("https://www.apple.com/v/iphone/home/am/images/overview/compare/compare_iphone_xr__dexbg7jerlqq_large_2x.jpg");
   background-size: 157px 251px;
 }

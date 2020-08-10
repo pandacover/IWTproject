@@ -1,4 +1,13 @@
+@font-face {
+  src: url(../ponds/FontsFree-Net-SFProDisplay-Bold.ttf);
+  font-family: sfb;
+}
+
 /* iphone-model-section */
+body{
+  font-family: sf;
+}
+
 
 .mac-model-section {
     height: 100px;
@@ -188,6 +197,31 @@
       padding-right: 20px;
   }
 
+  .mac-product-div-3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 968px;
+    font-weight: bold;
+    color: #1d1d1f;
+    align-items: center;
+    position: relative;
+    margin-top: 180px;
+  }
+
+  .mac-product-div-3 .info-3 .model .model-type{
+    font-size: 21px;
+  }
+
+  .mac-product-div-3 .info-3 .model{
+    font-size: 56px;
+  }
+
+  .mac-product-div-3 .info-3 .quote{
+    font-size: 28px;
+    position: relative;
+    margin-top: -40px;
+  }
+
   #sub-text{
     color: #bf4800  ;
     font-size: 10px;
@@ -231,7 +265,11 @@
     background-image: url("https://www.apple.com/v/mac/home/at/images/familybrowser/pro_display_xdr__d1ajndpu4d26_large.svg");
   }
 
-  .mac-model-10{
+  .mac-mode-10{
+    background-image: url("https:www.apple.com/v/mac/home/at/images/familybrowser/mac_acc__fzk5xof5criy_large.svg");
+  }
+
+  .mac-model-11{
     background-image: url("https://www.apple.com/v/mac/home/at/images/familybrowser/mac_osx__e431iz44c0gi_large.svg");
   }
 
@@ -256,3 +294,44 @@
     left: -409px;
     top: 300px;
   }
+
+  .mac-product-div-3 .imac-3-image{
+    width: 647px;
+    height: 232px;
+    background-size: 647px 232px;
+    background-repeat: no-repeat;
+    background-image: url("https:www.apple.com/v/mac/home/at/images/overview/hero/macbook_pro_13__ft1pc3lqwd6y_large.jpg");
+    position: relative;
+    left: 400px;
+    top: 300px;
+  }
+
+  /*Banner Section*/
+
+.banner-container{
+  font-size: 17px;
+  width: 1300px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+
+.banner-container .banner{
+  text-align: left;
+}
+
+.banner-container .banner .banner-title{
+  text-align: center;
+  padding: 76px 0 0 0;
+  font-size: 64px;
+  letter-spacing: -2px;
+}
+
+.banner-container .banner .link{
+  font-size: 20px;
+  text-align: center;
+}
+
+.banner-container .banner .link a{
+  text-decoration: none;
+  color: #06c;
+}
