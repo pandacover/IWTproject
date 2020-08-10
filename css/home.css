@@ -35,10 +35,85 @@
   text-decoration: underline;
 }
 
-/* iphone-se-photo */
+/* hero section */
+.hero {
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  background-color: #161616;
+  padding: 15px;
+}
 
-.figure-wrapper {
-  background-image: url("../img/og__eop0rb3mevma_overview.png");
-  background-repeat: no-repeat;
-  background-size: 1156px 584px;
+.content-wrapper {
+  position: absolute;
+  color: white;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.content-wrapper > * {
+  margin: 0;
+}
+
+.content-wrapper h2 {
+  font-size: 3.5em;
+  margin-top: 1.5rem;
+}
+.content-wrapper h3 {
+  font-weight: 400;
+  font-size: 28px;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 6px;
+}
+
+.content-wrapper p {
+  color: #888888;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.content-wrapper .cta {
+  margin-top: 20px;
+}
+
+.content-wrapper .cta a {
+  color: #2997ff;
+  text-decoration: none;
+  margin-top: 0.65em;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.381;
+}
+.content-wrapper .cta a:hover,
+.content-wrapper .cta a:focus {
+  text-decoration: underline;
+}
+
+.content-wrapper .cta a:first-child {
+  margin-left: -4px;
+}
+.content-wrapper .cta a:last-child {
+  margin-left: 35px;
+}
+
+.gt {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  border-bottom: solid 2px #2977ff;
+  border-right: solid 2px #2977ff;
+  transform: rotate(-45deg);
+}
+
+figure {
+  position: relative;
+  z-index: 0;
+  top: 6rem;
+}
+
+figure img {
+  width: 65%;
 }
