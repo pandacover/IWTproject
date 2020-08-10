@@ -1,11 +1,11 @@
-
 /* covid-19 shop-online */
 
 .covid-19-pre {
   padding-top: 44px;
 }
 
-.covid-19, .shop-online {
+.covid-19,
+.shop-online {
   width: 100%;
   height: 44px;
   background-color: rgb(1, 113, 227);
@@ -20,22 +20,25 @@
   color: black;
 }
 
-.covid-19 span a, .shop-online span a {
+.covid-19 span a,
+.shop-online span a {
   color: white;
   text-decoration: none;
 }
 
 .shop-online span a {
-  color: #0166CC;
+  color: #0166cc;
 }
 
-.covid-19 span a:hover, .shop-online span a:hover {
+.covid-19 span a:hover,
+.shop-online span a:hover {
   text-decoration: underline;
 }
 
-
 /* iphone-se-photo */
 
-.iphone-se-photo img {
-  width: 100%;
+.figure-wrapper {
+  background-image: url("../img/og__eop0rb3mevma_overview.png");
+  background-repeat: no-repeat;
+  background-size: 1156px 584px;
 }
