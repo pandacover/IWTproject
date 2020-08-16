@@ -11,6 +11,7 @@ body {
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(1.8) blur(20px);
   --webkit-backdrop-filter: saturate(1.8) blur(20px);
   position: fixed;
   display: block;
@@ -59,4 +60,13 @@ body {
 
 .navbar div ul .apple-logo svg {
   width: 16px;
+}
+
+.gt {
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  border-bottom: solid 2px #2977ff;
+  border-right: solid 2px #2977ff;
+  transform: rotate(-45deg) translate(1px, -1px);
 }

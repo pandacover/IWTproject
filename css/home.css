@@ -99,15 +99,6 @@
   margin-left: 35px;
 }
 
-.gt {
-  display: inline-block;
-  height: 6px;
-  width: 6px;
-  border-bottom: solid 2px #2977ff;
-  border-right: solid 2px #2977ff;
-  transform: rotate(-45deg) translate(1px, -1px);
-}
-
 .hero figure {
   position: relative;
   z-index: 0;
@@ -141,4 +132,30 @@
 
 .iphone .section-img img {
   width: 100%;
+}
+
+.ipad {
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.ipad .content-wrapper h2 {
+  font-size: 400%;
+}
+
+.ipad .content-wrapper h3 {
+  max-width: 100%;
+  letter-spacing: -2px;
+  word-spacing: 0px;
+}
+
+.ipad .section-img {
+  height: 624px;
+  width: 3010px;
+  overflow: hidden;
+  transform: translateX(-25%) translateY(-10%);
+}
+.ipad .section-img img {
+  width: 100%;
+  height: 100%;
 }
