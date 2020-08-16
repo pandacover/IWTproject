@@ -1,14 +1,8 @@
-@font-face {
-  src: url(../ponds/FontsFree-Net-SFProDisplay-Bold.ttf);
-  font-family: sfb;
-}
-
-/* iphone-model-section */
 body{
-  font-family: sf;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-
+/* mac-model-section */
 .mac-model-section {
     height: 100px;
     width: 100%;
@@ -265,11 +259,7 @@ body{
     background-image: url("https://www.apple.com/v/mac/home/at/images/familybrowser/pro_display_xdr__d1ajndpu4d26_large.svg");
   }
 
-  .mac-mode-10{
-    background-image: url("https:www.apple.com/v/mac/home/at/images/familybrowser/mac_acc__fzk5xof5criy_large.svg");
-  }
-
-  .mac-model-11{
+  .mac-model-10{
     background-image: url("https://www.apple.com/v/mac/home/at/images/familybrowser/mac_osx__e431iz44c0gi_large.svg");
   }
 
@@ -313,6 +303,7 @@ body{
   width: 1300px;
   margin: 0 auto;
   background-color: #f2f2f2;
+  height: 1200px;
 }
 
 .banner-container .banner{
@@ -333,5 +324,106 @@ body{
 
 .banner-container .banner .link a{
   text-decoration: none;
+  color: #06c;
+}
+
+.banner-container .banner .compare-models{
+  font-size: 24px;
+  margin: 0 auto;
+  width: 980px;
+  padding-top: 50px;
+}
+
+.compare-info{
+  list-style: none;
+  font-size: 14px;  
+  padding-left: 0px;
+  padding-top: 20px;
+  line-height: 40px;
+}
+
+.banner-container .banner .compare-models .compare-1{
+  width: 33%;
+}
+
+.compare-models .compare-1{
+  padding-left: 30px;
+}
+
+
+.compare-1 .title, .compare-2 .title, .compare-3 .title{
+    margin-bottom: 4px;
+}
+
+.compare-1 .quotes, .compare-2 .quotes, .compare-3 .quotes{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.compare-2{
+  position: absolute;
+  margin-top: -503px;
+  margin-left: 353px;
+}
+
+.compare-3{
+  position: absolute;
+  margin-top: -503px;
+  margin-left: 675px;
+  width: 300px;
+}
+
+/*Compare Models Images*/
+
+.banner-container .banner .compare-models .compare-img-1{
+  background-image: url("https://www.apple.com/v/mac/home/at/images/overview/compare/macbook_air__bfz9o93hnyuq_large.jpg");
+  width: 286px;
+  height: 168px;
+  background-size: 286px 168px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 80px;
+}
+
+.banner-container .banner .compare-models .compare-img-2{
+  background-image: url("https://www.apple.com/v/mac/home/at/images/overview/compare/macbook_pro_13__ft1pc3lqwd6y_large.jpg");
+  width: 282px;
+  height: 167px;
+  background-size: 282px 167px;
+  background-repeat: no-repeat;  
+  position: absolute;
+  margin-top: -670px;
+  margin-left: 320px;
+}
+
+.banner-container .banner .compare-models .compare-img-3{
+width: 334px;
+height: 194px;
+background-size: 334px 194px;
+background-repeat: no-repeat;
+background-image: url("https://www.apple.com/v/mac/home/at/images/overview/compare/macbook_pro_16__x90efpvdutu6_large.jpg");
+position: absolute;
+margin-top: -698px;
+margin-left: 640px;
+}
+
+/*Buy and Learn-more*/
+.buy a, .learn a{
+  text-decoration: none;
+  color: white;
+}
+
+.buy a{
+  background-color: #0071e3;
+  padding: 2px 13px 3px 13px;
+  width: 50px;
+  border: 1px solid transparent;
+  border-radius: 18px;
+  font-size: 12px;
+}
+
+.learn a{
+  font-size: 14px;
   color: #06c;
 }
