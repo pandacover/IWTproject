@@ -93,7 +93,7 @@
             <h4>Query</h4>
             <textarea></textarea>
           </label>
-          <input type="submit" value="submit" />
+          <input type="submit" value="submit" id="submit-button" />
         </form>
       </section>
     </main>
@@ -101,12 +101,17 @@
       function validation() {
         var input = document.querySelector("input");
         var warn = document.getElementById("warn");
-        if (input.value.length <= 1) {
+        var submit = document.querySelector("#submit-button");
+        if (input.value.length <= 2) {
           input.style.border = "solid 1px red";
           warn.innerHTML = "Please Enter a valid name";
+          submit.classList.add("disabled");
+          submit.setAttribute("disabled", true);
         } else {
           input.style.border = "solid 1px black";
           warn.innerHTML = null;
+          submit.classList.remove("disabled");
+          submit.setAttribute("disabled", "false");
         }
       }
     </script>

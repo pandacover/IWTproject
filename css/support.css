@@ -13,7 +13,6 @@ header {
   margin: 0 auto;
   width: 40rem;
   padding: 10px 50px;
-  opacity: 0.4;
   text-align: left;
 }
 
@@ -47,16 +46,26 @@ header {
 #support form [type="submit"] {
   margin-top: 20px;
   height: 35px;
+  width: 100px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
   color: white;
   font-size: 1rem;
 }
 
 #support form [type="submit"]:hover,
 #support form [type="submit"]:active {
-  background: #000;
+  background: #363636;
 }
-/*# sourceMappingURL=support.css.map */
+
+#support form .disabled {
+  color: white;
+  background: grey;
+}
+#support form .disabled:hover {
+  background: grey;
+  color: white;
+  cursor: not-allowed;
+}
