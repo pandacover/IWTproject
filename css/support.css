@@ -1,0 +1,62 @@
+header {
+  height: 44px;
+}
+
+#support {
+  width: 100%;
+  text-align: center;
+  height: 70vh;
+  margin-top: 10px;
+}
+
+#support form {
+  margin: 0 auto;
+  width: 40rem;
+  padding: 10px 50px;
+  opacity: 0.4;
+  text-align: left;
+}
+
+#support form label [type="text"] {
+  border-radius: 5px;
+  outline: none;
+  border: solid 1px #000;
+  height: 25px;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+#support form label h4 {
+  font-size: 1.3rem;
+  color: black;
+}
+
+#support form label textarea {
+  height: 400px;
+  width: calc(100% - 10px);
+  border-radius: 10px;
+  outline: none;
+  border: solid 1px #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3rem;
+  color: black;
+  padding: 25px 10px;
+}
+
+#support form [type="submit"] {
+  margin-top: 20px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 1rem;
+}
+
+#support form [type="submit"]:hover,
+#support form [type="submit"]:active {
+  background: #000;
+}
+/*# sourceMappingURL=support.css.map */
